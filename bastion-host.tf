@@ -14,13 +14,13 @@ resource "aws_instance" "cloudstate-bastion" {
 
   provisioner "file" {
     content     = templatefile("dbscript/deploy.tmpl", { rds-endpoint = aws_db_instance.cloudstate-rds.address, dbuser = var.dbuser, dbpass = var.dbpass })
-    destination = "/tmp/dbdeploy.sh"
+    destination = "/tmp/deploy.sh"
   }
 
   provisioner "remote-exec" {
     inline = [
-      "chmod +x /tmp/dbdeploy.sh",
-      "sudo /tmp/dbdeploy.sh"
+      "chmod +x /tmp/deploy.sh",
+      "sudo /tmp/deploy.sh"
     ]
   }
 
