@@ -1,7 +1,7 @@
 # cloudstate-blog-application 
 
 ## OVERVIEW 
-In this project, the goal is to deploy a simple application stack on the AWS cloud using Terraform as Infrastructure as Code (IaC). The purpose of this deployment is to manage the state of the environment efficiently, simplifying both initialization and destruction processes. The infrastructure includes the creation of a VPC (Virtual Private Cloud) network spanning three Availability Zones, along with associated components such as subnets, route tables, NAT gateway, load balancer, and a bastion host for secure server access. Additionally, I deploy my environment using AWS Elastic Beanstalk for streamlined management, while also intergrating Maven for building and uploading my artifact into AWS. 
+In this project, the goal is to deploy a simple application stack on AWS cloud using Terraform as Infrastructure as Code (IaC). The purpose of this deployment is to manage the state of the environment efficiently, simplifying both initialization and destruction processes. The infrastructure includes the creation of a VPC (Virtual Private Cloud) network spanning three Availability Zones, along with associated components such as subnets, route tables, NAT gateway, load balancer, and a bastion host for secure server access. Additionally, I deploy my environment using AWS Elastic Beanstalk for streamlined management, while also intergrating Maven for building and uploading my artifact into AWS. 
 
 ## Expierience 
 Cloudstate-blog was all about diving into the AWS cloud and getting hands-on with Terraform's Infrastructure as Code (IaC). 
