@@ -14,6 +14,7 @@ The deployment involves utilizing these AWS services to construct the applicatio
 - **AWS RDS (MySQL):** Managed relational database service
 - **EC2:** Ubuntu server for cloudstate application
 - **S3:** Object storage service (Terraform state)
+- **BastionHost:** Serve as a private server that holds my mySQL dbscript   
 
 ## Prerequisites
 ensure you have the following prerequisites in place:
@@ -22,7 +23,7 @@ ensure you have the following prerequisites in place:
 - **Terraform v1.5.5:** Install Terraform on your development machine. You can find installation instructions in the Terraform documentation. I used Terraform locally (Mac)
 - **AWS CLI:** Install the AWS Command Line Interface to interact with AWS services.
 - **IDE (e.g., VS Code):** Choose an integrated development environment to work on your Terraform scripts.
-- **Maven:** Utilized for building and managing Java-based projects.
+- **Maven:** Utilized for packagin my webapp resources .war.
 - **Apache HTTP Server:** Used to serve the artifact to AWS Elastic Beanstalk.
 
 ## Getting Started
