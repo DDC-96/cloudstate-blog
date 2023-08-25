@@ -1,7 +1,7 @@
 # cloudstate-blog 
 
 ## OVERVIEW 
-In this project, the goal is to deploy a simple application stack on AWS cloud using Terraform as Infrastructure as Code (IaC). The purpose of this deployment is to manage the state of the environment efficiently, simplifying both initialization and destruction processes. The infrastructure includes the creation of a VPC (Virtual Private Cloud) network spanning three Availability Zones, along with associated components private/public subnets, route tables, NAT gateway, load balancer, and a bastion host for secure server access. Additionally, I deploy my environment using AWS Elastic Beanstalk for streamlined management, while also intergrating Maven for building and uploading my artifact into AWS. 
+In this project, the goal is to deploy an application stack on AWS cloud using Terraform as Infrastructure as Code (IaC). The purpose of this deployment is to manage the state of the environment efficiently, simplifying both initialization and destruction processes. The infrastructure includes a secure and scalable approach by using a VPC (Virtual Private Cloud) network spanning three Availability Zones associated components private/public subnets, route tables, load balancer for target groups and a RDS mySql database in a private subnet along with a bastion host and security groups for secure server access to host my application. Additionally, I deploy my environment using AWS Elastic Beanstalk for streamlined management, while also intergrating Maven for building and uploading my artifact into AWS. 
 
 ## Expierience 
 Cloudstate-blog was all about diving into AWS and getting hands-on with automation / Terraform's Infrastructure as Code (IaC). 
@@ -37,6 +37,7 @@ ensure you have the following prerequisites in place:
 1. **Build Artifact:** Use Maven to build your application artifact.
 2. **Configure Apache:** Set up Apache HTTP Server to serve the artifact.
 3. **AWS Elastic Beanstalk:** Configure your Elastic Beanstalk environment to deploy your artifact from the Apache server.
+
 
 
 
