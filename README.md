@@ -38,6 +38,15 @@ ensure you have the following prerequisites in place:
 2. **Configure Apache:** Set up Apache HTTP Server to serve the artifact.
 3. **AWS Elastic Beanstalk:** Configure your Elastic Beanstalk environment to deploy your artifact from the Apache server.
 
+## Application UI
+
+
+<img width="1440" alt="Login UI" src="https://github.com/DDC-96/cloudstate-blog/assets/116264071/336f377d-5c7f-494a-9ad5-bad3c85a326f">
+
+<img width="1440" alt="DB Cache" src="https://github.com/DDC-96/cloudstate-blog/assets/116264071/5026d2ea-3637-4f76-aa3c-6e23af68cba6">
+
+<img width="1440" alt="Main UI" src="https://github.com/DDC-96/cloudstate-blog/assets/116264071/10ecfa55-f444-47b5-ab26-a9309da3b7af">
+
 
 
 
